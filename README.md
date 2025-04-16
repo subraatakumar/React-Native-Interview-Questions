@@ -27,6 +27,11 @@
 - [How to write platform specific code in React Native?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/platform_specific.md)
 - [How to handle responsiveness in React Native?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/responsive_design.md)
   - [How to test whether the responsive design implemented correctly?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/test_responsiveness.md)
+- [While displaying a list of items in react native what should you consider, how you choose the best component to use and how you will optimise performance ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/flatlist.md)
+  - [How to handle infinite scrolling in flatlist in react native ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/flatlist.md#3)
+  - [How to handle paginated list in react native ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/flatlist.md#3)
+  - [How to handle a large list in react native ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/flatlist.md#3)
+
 - [Can you explain how Zustand works and why it's necessary?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/zustand.md)
   - [can we use multiple stores in zustand ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/zustand_multiple_stores.md)
     - [can one store access or modify the state of another store?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/update_another_store.md)
