@@ -43,3 +43,49 @@ In this setup, `useSettingsStore` accesses the `userId` from `useUserStore` usin
 - **Alternative Approaches:** For reactive cross-store interactions, consider using subscriptions or middleware. Alternatively, libraries like Jotai or Valtio might offer more suitable patterns for such scenarios.
 
 In summary, while Zustand allows one store to access another's state, it's essential to be mindful of reactivity and maintainability. Depending on the application's complexity, consolidating related states into a single store might be more appropriate.
+
+Certainly! Here's how you might explain and demonstrate updating the `userId` in `userStore` from within `settingsStore` using Zustand:
+
+---
+
+**Interviewer:** *Can you demonstrate how to update the `userId` in `userStore` from within `settingsStore` using Zustand?*
+
+**Candidate:**
+
+"Absolutely. In Zustand, each store is essentially a custom hook created using the `create` function. To update the `userId` in `userStore` from `settingsStore`, we can import the `userStore` and utilize its `setState` method.
+
+Here's how we can implement this:
+
+First, define the `userStore`:
+
+
+```javascript
+// userStore.js
+import { create } from 'zustand';
+
+export const useUserStore = create((set) => ({
+  userId: null,
+  setUserId: (id) => set({ userId: id }),
+}));
+```
+
+
+Next, define the `settingsStore` and import `useUserStore`:
+
+
+```javascript
+// settingsStore.js
+import { create } from 'zustand';
+import { useUserStore } from './userStore';
+
+export const useSettingsStore = create((set) => ({
+  updateUserIdInUserStore: (newId) => {
+    useUserStore.getState().setUserId(newId);
+  },
+}));
+```
+
+In this setup, `updateUserIdInUserStore` is a function within `settingsStore` that accesses the `setUserId` function from `userStore` using `getState()` and updates the `userId`.
+
+It's important to note that while this approach works, Zustand isn't inherently designed for tightly coupled store interactions. If multiple stores need to coordinate closely, it might be more effective to combine them into a single store with slices to manage different state domains.
+
