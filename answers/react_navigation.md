@@ -1,4 +1,4 @@
-#1
+# 1
 
 **Interviewer:** How to use react navigation ?
 
@@ -105,7 +105,7 @@ export default DetailsScreen;
 
 So in short: use `route.params` to receive data, and it works seamlessly with all navigator types like Stack, Tab, or Drawer."
 
-#3
+# 3
 
 **Interviewer:** suppose we are using another component with in a screen and with in that component we want to use the navigation and route, how can we do that ?
 
