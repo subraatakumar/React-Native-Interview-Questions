@@ -23,6 +23,6 @@
 
 - [What is React Native and how does it differ from React for the web?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/react_native_vs_react.md)
 - [What is casceding stylesheet ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/casceding_style_sheet.md)
-
+  - [instead of stylesheet api can we use plain javascript object ? ](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/stylesheet_vs_js_object.md)
 - [Can you explain new architecture?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/new_architecture.md)
 
