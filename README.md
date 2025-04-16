@@ -32,6 +32,10 @@
   - [How to handle paginated list in react native ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/flatlist.md#3)
   - [How to handle a large list in react native ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/flatlist.md#3)
 
+- [How to use React Navigation?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/react_navigation.md)
+  - [In React Navigation, how do you receive the parameters passed from another screen?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/react_navigation.md#2)
+  - [suppose we are using another component with in a screen and with in that component we want to use the navigation and route, how can we do that ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/react_navigation.md#3)
+  - [Can we customise the navigation of a React Native screen ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/react_navigation.md#4)
 - [Can you explain how Zustand works and why it's necessary?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/zustand.md)
   - [can we use multiple stores in zustand ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/zustand_multiple_stores.md)
     - [can one store access or modify the state of another store?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/update_another_store.md)
