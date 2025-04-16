@@ -36,4 +36,5 @@
 - [Can you explain the React Context API and how it works?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/context_api.md)
 - [Can we use Expo packages in a bare React Native app?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/expo_bare_react_native_app.md)
 - [Can you explain new architecture?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/new_architecture.md)
+- [If you're creating a proof of concept (POC), should you choose Expo or bare React Native?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/poc_stack.md)
 
