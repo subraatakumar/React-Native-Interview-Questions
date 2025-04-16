@@ -31,6 +31,7 @@
   - [can we use multiple stores in zustand ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/zustand_multiple_stores.md)
     - [can one store access or modify the state of another store?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/update_another_store.md)
   - [How do you handle asynchronous logic in Zustand?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/async_logic_zustand.md)
+- [Should we persist tokens in AsyncStorage?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/zustand_persist.md#2)
 - [Can you explain the React Context API and how it works?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/context_api.md)
 - [Can you explain new architecture?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/new_architecture.md)
 
