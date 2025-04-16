@@ -108,3 +108,143 @@ const styles = StyleSheet.create({
 
 This approach ensures that the list is rendered efficiently, offering smooth scrolling and responsiveness even when dealing with large data sets.
 
+# 3
+
+**Interviewer:**  How to handle infinite scrolling in flatlist in react native ?
+
+**Candidate:** 
+
+**Interviewer:** *How would you handle infinite scrolling in a FlatList in React Native?*
+
+**Candidate:**
+
+"Infinite scrolling in a FlatList is implemented by detecting when the user approaches the end of the list and then fetching additional data to append to the existing list. The key properties for this are `onEndReached` and `onEndReachedThreshold`.
+
+- **onEndReached:** This callback is triggered when the end of the list is reached. It’s where you would typically call an API or data-fetching function to load more items.
+- **onEndReachedThreshold:** This determines how close (as a fraction of the total list length) the user must be from the end before `onEndReached` is called. For example, a threshold of `0.5` means the callback will fire when the user scrolls within half the screen's length from the end.
+
+To prevent duplicate calls during rapid scrolling, it’s important to keep track of a loading state. Additionally, you might display an ActivityIndicator at the bottom of the list to indicate that data is being loaded.
+
+Below is an example of how you might implement infinite scrolling using FlatList in React Native. In this example, we fetch data from the API endpoint you provided. We maintain state for the list of products, the current page, a loading flag, and whether there's more data to load. When the user scrolls to the bottom of the list (triggered by the `onEndReached` event), we fetch the next page of data and append it to our existing list.
+
+```jsx
+import React, { useState, useEffect, useCallback } from 'react';
+import { View, FlatList, Text, ActivityIndicator, StyleSheet } from 'react-native';
+
+const PAGE_SIZE = 10;
+const API_URL = 'https://backend.ecom.subraatakumar.com/api/v1/products';
+
+const InfiniteScrollList = () => {
+  const [products, setProducts] = useState([]);
+  const [page, setPage] = useState(1); // start at page 1
+  const [loading, setLoading] = useState(false);
+  const [hasMore, setHasMore] = useState(true);
+
+  // Function to fetch products for a given page
+  const fetchProducts = useCallback(async (pageNumber) => {
+    setLoading(true);
+    try {
+      const response = await fetch(`${API_URL}?page=${pageNumber}&size=${PAGE_SIZE}`);
+      const data = await response.json();
+      
+      // Assume the API returns an array of products
+      if (data && data.length > 0) {
+        // Append new products to the existing list
+        setProducts((prevProducts) => [...prevProducts, ...data]);
+        // If the number of fetched items is less than PAGE_SIZE, no more data is available
+        if (data.length < PAGE_SIZE) {
+          setHasMore(false);
+        }
+      } else {
+        setHasMore(false);
+      }
+    } catch (error) {
+      console.error('Error fetching products:', error);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  // Initial load
+  useEffect(() => {
+    fetchProducts(page);
+  }, [fetchProducts, page]);
+
+  // Handler when end of list is reached
+  const handleEndReached = () => {
+    if (!loading && hasMore) {
+      setPage((prevPage) => prevPage + 1);
+    }
+  };
+
+  // Render a single product item
+  const renderItem = ({ item }) => (
+    <View style={styles.itemContainer}>
+      <Text style={styles.itemText}>{item.title || `Product ${item.id}`}</Text>
+    </View>
+  );
+
+  // Render footer with a loading indicator
+  const renderFooter = () => {
+    if (!loading) return null;
+    return (
+      <View style={styles.footer}>
+        <ActivityIndicator size="large" color="#0000ff" />
+      </View>
+    );
+  };
+
+  return (
+    <FlatList
+      data={products}
+      renderItem={renderItem}
+      keyExtractor={(item) => String(item.id)}
+      onEndReached={handleEndReached}
+      onEndReachedThreshold={0.5}
+      ListFooterComponent={renderFooter}
+    />
+  );
+};
+
+const styles = StyleSheet.create({
+  itemContainer: {
+    padding: 16,
+    borderBottomWidth: 1,
+    borderColor: '#ccc',
+  },
+  itemText: {
+    fontSize: 16,
+  },
+  footer: {
+    paddingVertical: 20,
+  },
+});
+
+export default InfiniteScrollList;
+```
+
+---
+
+**Explanation:**
+
+- **State Management:**  
+  We maintain state for `products`, `page`, `loading`, and `hasMore` to track the current list, pagination, and loading status.
+
+- **Data Fetching:**  
+  The `fetchProducts` function uses the provided API endpoint. It fetches a page of products and appends them to our existing list. If the number of products fetched is less than the page size, we assume there is no more data to load.
+
+- **FlatList Props:**  
+  - `onEndReached` calls `loadMore` when the user scrolls close to the end of the list.  
+  - `onEndReachedThreshold` is set to 0.5, meaning the callback is triggered when the scroll position is within half the visible length from the bottom.
+  - `ListFooterComponent` displays an ActivityIndicator during data fetching.
+
+ - **Infinite Scrolling:**  
+  The `onEndReached` prop in FlatList triggers `handleEndReached` when the list is scrolled near the bottom. This handler increments the page number, causing `useEffect` to fetch the next page.
+
+- **Performance Considerations:**  
+  The keyExtractor ensures each item is uniquely identified, while the onEndReachedThreshold (set to 0.5) allows us to start fetching new data when the user has scrolled halfway past the visible content.
+
+This example demonstrates how to implement infinite scrolling in React Native with FlatList using asynchronous data fetching, which is essential for a smooth and responsive user experience.
+
+
+
