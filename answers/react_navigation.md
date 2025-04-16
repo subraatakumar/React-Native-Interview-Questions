@@ -142,7 +142,7 @@ In this example, `MyNestedComponent` calls `useNavigation()` and `useRoute()` to
 
 # 4
 
-**Interviewer:** Can we customise the navigation of a React Native screen ?
+**Interviewer:** Can we customise the navigation header of a React Native screen ?
 
 **Candidate:**
 
