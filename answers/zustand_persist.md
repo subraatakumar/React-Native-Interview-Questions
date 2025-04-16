@@ -69,6 +69,8 @@ Here, only the `token` field will be persisted, while `user` and `sessionStart` 
 
 - **Performance Implications:** Frequent writes to `AsyncStorage` can impact performance. If the state updates frequently, consider debouncing the persistence or limiting the persisted fields to essential data.
 
+# 2
+
 **Interviewer:** *Should we persist tokens in AsyncStorage in React Native?*
 
 **Candidate:**
