@@ -4,4 +4,4 @@ In React for the web, you typically work with HTML elements (like div, span, img
 
 Additionally, while React web apps use traditional CSS (or CSS-in-JS solutions) for styling, React Native uses a StyleSheet API where styles are defined as JavaScript objects. There are also subtle differences in layout—React Native relies on Flexbox for layout but comes with defaults (like a column-based layout) that differ from standard CSS on the web.
 
-Ultimately, the key difference is that React Native leverages the power of native components and a bridge between JavaScript and native code, allowing developers to build cross-platform mobile apps with near-native performance, while React for the web is optimized for building user interfaces within a browser environment. 
+To summarise, React Native leverages the power of native components allowing developers to build cross-platform mobile apps using javascript, while React for the web is optimized for building user interfaces within a browser environment using javascript. 
