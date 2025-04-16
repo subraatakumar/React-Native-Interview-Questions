@@ -13,7 +13,7 @@ The `Dimensions` API provides access to the device's screen dimensions, which ca
 
 **4. Leverage External Libraries**
 
-Several libraries can simplify responsive design in React Native:
+Several libraries can simplify responsive design in React Native:
 
 - **`react-native-responsive-screen`**: Offers utility functions like `widthPercentageToDP` and `heightPercentageToDP` to define dimensions as percentages of screen size.
 
@@ -31,4 +31,4 @@ To make your app responsive to orientation changes (portrait to landscape and vi
 
 When input fields are focused, the on-screen keyboard can obscure parts of your UI. Wrapping your components with `KeyboardAvoidingView` adjusts the layout to ensure that input fields remain visible when the keyboard appears. 
 
-By combining these strategies, you can create a React Native application that adapts seamlessly to various devices, screen sizes, and orientations, providing a consistent user experience across the board. 
+By combining these strategies, you can create a React Native application that adapts seamlessly to various devices, screen sizes, and orientations, providing a consistent user experience across the board.
