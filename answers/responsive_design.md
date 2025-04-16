@@ -5,17 +5,17 @@ React Native leverages Flexbox as its primary layout system, allowing components
 
 **2. Employ Percentage-Based Dimensions**
 
-Instead of fixed pixel values, using percentage-based dimensions enables components to scale relative to the screen size. For instance, setting a component's width to `'80%'` ensures it occupies 80% of the screen width, regardless of the device. citeturn0search7
+Instead of fixed pixel values, using percentage-based dimensions enables components to scale relative to the screen size. For instance, setting a component's width to `'80%'` ensures it occupies 80% of the screen width, regardless of the device.
 
 **3. Use the Dimensions API and `useWindowDimensions` Hook**
 
-The `Dimensions` API provides access to the device's screen dimensions, which can be used to calculate dynamic sizes. However, for components that need to respond to orientation changes or window resizing, the `useWindowDimensions` hook is more suitable as it updates the dimensions automatically upon changes. citeturn0search7
+The `Dimensions` API provides access to the device's screen dimensions, which can be used to calculate dynamic sizes. However, for components that need to respond to orientation changes or window resizing, the `useWindowDimensions` hook is more suitable as it updates the dimensions automatically upon changes.
 
 **4. Leverage External Libraries**
 
 Several libraries can simplify responsive design in React Native:
 
-- **`react-native-responsive-screen`**: Offers utility functions like `widthPercentageToDP` and `heightPercentageToDP` to define dimensions as percentages of screen size. citeturn0search11
+- **`react-native-responsive-screen`**: Offers utility functions like `widthPercentageToDP` and `heightPercentageToDP` to define dimensions as percentages of screen size.
 
 - **`react-native-size-matters`**: Provides scaling functions (`scale`, `verticalScale`, `moderateScale`) to adjust sizes based on device dimensions, ensuring consistent sizing across devices. 
 
