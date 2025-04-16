@@ -83,5 +83,54 @@ Instead, it's advisable to use secure storage solutions that encrypt data and pr
 
 In summary, while AsyncStorage offers ease of use for storing non-sensitive data, it's not suitable for persisting tokens due to its lack of encryption and potential security vulnerabilities. Utilizing secure storage solutions is the recommended approach to ensure the safety and integrity of sensitive information in React Native applications.
 
+# 3
 
+**Interviewer:** *Can you explain what access tokens and refresh tokens are, and describe the typical authentication flow involving them?*
+
+**Candidate:**
+
+Certainly. Access tokens and refresh tokens are integral components of modern authentication systems, particularly those implementing the OAuth 2.0 protocol.
+
+**Access Token:**
+
+An access token is a short-lived credential issued by an authentication server after a user successfully logs in. This token is used by the client application to access protected resources or APIs on behalf of the user. Due to its short lifespan, if compromised, the potential damage is limited.
+
+**Refresh Token:**
+
+A refresh token is a long-lived credential also issued upon successful authentication. Its primary purpose is to obtain new access tokens without requiring the user to re-authenticate. This enhances user experience by maintaining session continuity.
+
+**Authentication Flow:**
+
+1. **User Authentication:**
+
+   - The user provides credentials (e.g., username and password) to the client application.
+
+2. **Token Issuance:**
+
+   - The client sends these credentials to the authentication server.
+   - Upon successful verification, the server issues both an access token and a refresh token.
+
+3. **Accessing Protected Resources:**
+
+   - The client uses the access token to request resources from the resource server.
+   - The resource server validates the access token before granting access.
+
+4. **Token Expiration and Renewal:**
+
+   - Once the access token expires, the client uses the refresh token to request a new access token from the authentication server.
+   - The server verifies the refresh token and, if valid, issues a new access token (and potentially a new refresh token).
+
+5. **Session Continuity:**
+
+   - This process allows the user to maintain an active session without repeated logins, enhancing usability.
+
+**Security Considerations:**
+
+- **Storage:** Access tokens are typically stored in memory, while refresh tokens should be stored securely, such as in encrypted storage or secure cookies.
+
+- **Scope and Permissions:** Access tokens can be scoped to limit permissions, reducing potential misuse.
+
+- **Revocation:** If a refresh token is compromised, it can be revoked by the authentication server, terminating the session.
+
+In summary, access tokens and refresh tokens work in tandem to provide secure and seamless authentication experiences. Access tokens grant temporary access to resources, while refresh tokens allow for the renewal of access tokens without burdening the user with repeated logins.
 
