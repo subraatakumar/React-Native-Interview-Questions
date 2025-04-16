@@ -26,5 +26,7 @@
   - [instead of stylesheet api can we use plain javascript object ? ](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/stylesheet_vs_js_object.md)
 - [How to write platform specific code in React Native?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/platform_specific.md)
 - [How to handle responsiveness in React Native?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/responsive_design.md)
+  - [How to test whether the responsive design implemented correctly?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/test_responsiveness.md)
+- [Can you explain how Zustand works and why it's necessary?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/zustand.md)
 - [Can you explain new architecture?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/new_architecture.md)
 
