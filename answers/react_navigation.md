@@ -139,3 +139,111 @@ export default MyNestedComponent;
 ```
 
 In this example, `MyNestedComponent` calls `useNavigation()` and `useRoute()` to access the `navigation` and `route` objects. This way, even though it's not directly a screen component, it still has full access to the navigation methods and route parameters.
+
+# 4
+
+**Interviewer:** Can we customise the navigation of a React Native screen ?
+
+**Candidate:**
+
+"Yes, we can absolutely customize the header of our navigation screens in React Navigation. There are several approaches:
+
+1. **Using Screen Options:**  
+   You can pass options to your navigator or individual screens. For instance, with a Stack Navigator, you can customize properties like `headerStyle`, `headerTintColor`, `headerTitleStyle`, and even set a custom title. For example:
+
+   ```jsx
+   import { createStackNavigator } from '@react-navigation/stack';
+   import HomeScreen from './HomeScreen';
+
+   const Stack = createStackNavigator();
+
+   function App() {
+     return (
+       <Stack.Navigator
+         screenOptions={{
+           headerStyle: { backgroundColor: 'tomato' },
+           headerTintColor: '#fff',
+           headerTitleStyle: { fontWeight: 'bold' },
+         }}
+       >
+         <Stack.Screen 
+           name="Home" 
+           component={HomeScreen} 
+           options={{ title: 'Custom Home Title' }} 
+         />
+       </Stack.Navigator>
+     );
+   }
+
+   export default App;
+   ```
+
+   In this example, the header of all screens in the navigator has a tomato background, white tint color, and bold title styling.
+
+2. **Using a Custom Header Component:**  
+   If you need more control, you can replace the entire header by specifying a custom component in the screen options. For example:
+
+   ```jsx
+   import React from 'react';
+   import { View, Text, StyleSheet } from 'react-native';
+   import { createStackNavigator } from '@react-navigation/stack';
+   import HomeScreen from './HomeScreen';
+
+   const Stack = createStackNavigator();
+
+   const CustomHeader = ({ scene, previous, navigation }) => {
+     const { options } = scene.descriptor;
+     const title =
+       options.headerTitle !== undefined
+         ? options.headerTitle
+         : options.title !== undefined
+         ? options.title
+         : scene.route.name;
+
+     return (
+       <View style={styles.header}>
+         {previous ? <Text onPress={navigation.goBack}>Back</Text> : null}
+         <Text style={styles.title}>{title}</Text>
+       </View>
+     );
+   };
+
+   const styles = StyleSheet.create({
+     header: {
+       height: 60,
+       backgroundColor: 'tomato',
+       alignItems: 'center',
+       justifyContent: 'center',
+       flexDirection: 'row',
+       paddingHorizontal: 10,
+     },
+     title: {
+       color: '#fff',
+       fontSize: 20,
+       fontWeight: 'bold',
+     },
+   });
+
+   function App() {
+     return (
+       <Stack.Navigator
+         screenOptions={{
+           header: (props) => <CustomHeader {...props} />,
+         }}
+       >
+         <Stack.Screen 
+           name="Home" 
+           component={HomeScreen} 
+           options={{ title: 'My Home' }} 
+         />
+       </Stack.Navigator>
+     );
+   }
+
+   export default App;
+   ```
+
+   Here, the `CustomHeader` component completely replaces the default header, giving you full control over its layout and behavior.
+
+In summary, React Navigation is very flexible—you can easily adjust the default header styles through screen options or even build an entirely custom header component if your design requirements are more complex. This versatility is one of the reasons why React Navigation is so popular for managing screen transitions and layouts.
+
