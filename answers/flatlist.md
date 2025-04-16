@@ -4,7 +4,7 @@
 
 "When displaying a list of items in React Native, there are several key considerations to keep in mind regarding component selection and performance optimization.
 
-First, you need to evaluate the size and nature of your data set. For small or static lists, you might use a `ScrollView`, which renders all items at once. However, for larger or dynamic lists, it's best to use components like `FlatList` or `SectionList` because they support virtualization—only the visible items are rendered, which greatly improves performance.
+First, you need to evaluate the size and nature of your data set. For small or static lists, you might use a `ScrollView`, which renders all items at once. However, for larger or dynamic lists, it's best to use components like `FlatList` because it support virtualization—only the visible items + 2 are rendered, which greatly improves performance.
 
 Next, consider the following performance optimizations when using `FlatList` or `SectionList`:
 
