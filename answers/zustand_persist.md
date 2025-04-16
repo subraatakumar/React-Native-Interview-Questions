@@ -103,26 +103,26 @@ A refresh token is a long-lived credential also issued upon successful authentic
 
 1. **User Authentication:**
 
-   - The user provides credentials (e.g., username and password) to the client application.
+   - The user provides credentials (e.g., username and password) to the backend.
 
 2. **Token Issuance:**
 
-   - The client sends these credentials to the authentication server.
-   - Upon successful verification, the server issues both an access token and a refresh token.
+   - The backend verifies on their own or sends these credentials to the authentication server (if you are using any like firebase).
+   - Upon successful verification, the server issues both an access token and a refresh token.
 
 3. **Accessing Protected Resources:**
 
-   - The client uses the access token to request resources from the resource server.
-   - The resource server validates the access token before granting access.
+   - The client uses the access token to request resources from the backend server.
+   - The backend server validates the access token before granting access. If validated then provides the response.
 
 4. **Token Expiration and Renewal:**
 
-   - Once the access token expires, the client uses the refresh token to request a new access token from the authentication server.
+   - Once the access token expires, the user uses the refresh token to request a new access token from the backend server.
    - The server verifies the refresh token and, if valid, issues a new access token (and potentially a new refresh token).
 
 5. **Session Continuity:**
 
-   - This process allows the user to maintain an active session without repeated logins, enhancing usability.
+   - This process allows the user to maintain an active session without repeated logins, enhancing usability.
 
 **Security Considerations:**
 
