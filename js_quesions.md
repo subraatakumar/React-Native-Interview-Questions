@@ -18,6 +18,7 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 13. [What does the nullish coalescing assignment (`??=`) operator do, and how might it simplify setting default state ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/nullish_coealising_assignment.md) 
 14. [How do default parameters work in functions, and why are they useful for fallback values in utility helpers?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/default_parameter.md)  
 15. [What are Immediately Invoked Function Expressions (IIFEs), and are they still relevant in ES modules? ](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/iife.md)
+16. [What is SET in javascript and explain some use cases of it in an ecommerce app.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/SET.md)
 
 ## Intermediate Patterns & APIs (16–35)  
 ES6+ features, asynchronous patterns, and performance techniques that differentiate an effective React Native developer.  
@@ -30,7 +31,6 @@ ES6+ features, asynchronous patterns, and performance techniques that differenti
 22. What is the difference between `Promise.all` and `Promise.race`, and when would you use each?  
 23. Explain debouncing vs. throttling, and how you’d debounce a scroll or text‑input event in RN .  
 24. What defines a “pure function,” and why are pure functions critical for hooks and Redux reducers ?  
-25.   
 26. What is prototypal inheritance, and how do ES6 `class` declarations relate to prototypes?  
 27. How do getters and setters work in ES6 classes?  
 28. What are generator functions (`function*`), and how does `yield` work ?  
