@@ -1,7 +1,5 @@
-List of 50 vanilla‑JavaScript questions, refocused for a React Native SDE1 interview. We’ve pruned Node‑ and browser‑only topics, inserted modern ESNext features, and emphasized patterns critical to efficient React Native apps.  
+List of vanilla‑JavaScript questions, refocused for a React Native SDE1 interview. We’ve pruned Node‑ and browser‑only topics, inserted modern ESNext features, and emphasized patterns critical to efficient React Native apps.  
 
-## Core React Native JS Concepts (1–15)  
-Fundamental language mechanics and modern syntax you’ll use every day in functional components and hooks.  
 
 1. [What are the differences between `var`, `let`, and `const`, and why prefer `const` in React Native code?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/part1.md#1-var--let--const)
 2. [How do JavaScript’s primitive types differ from reference types, and why does this matter when managing state?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/primitive.md)  
@@ -27,3 +25,5 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 23. [Default export vs named export](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/default_export_named.md)
 24. [Explain debouncing vs. throttling with usecases .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/debouncing_throttling.md)  
 25. [What defines a “pure function,” ? Explain with example.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/pure_function.md)
+
+[Visualise Javascript](https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke)
