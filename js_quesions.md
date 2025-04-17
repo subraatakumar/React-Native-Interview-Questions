@@ -22,12 +22,8 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 17. [What are Promises, and what are their three states?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/promise.md)  
 18. [How does `async`/`await` simplify Promise code, and how do you catch and surface errors in React Native components ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/async_await_react_native.md)   
 19. [Define higher‑order functions and give examples using `map`, `filter`, and `reduce`.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/higher_order_function.md)
-
-    
-18. Explain dynamic `import()` and how code splitting can improve bundle size in RN .  
-19. Contrast ES Modules (`import`/`export`) with CommonJS (`require`/`module.exports`) and why Metro prefers ES Modules .  
- 
-22. What is the difference between `Promise.all` and `Promise.race`, and when would you use each?  
+20. [Describe the JavaScript event loop in detail, distinguishing microtasks (Promises) from macrotasks (`setTimeout`) .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/event_loop.md)  
+22. [What is the difference between `Promise.all` and `Promise.race`, and when would you use each?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/promise_all_vs_race.md)  
 23. Explain debouncing vs. throttling, and how you’d debounce a scroll or text‑input event in RN .  
 24. What defines a “pure function,” and why are pure functions critical for hooks and Redux reducers ?  
 26. What is prototypal inheritance, and how do ES6 `class` declarations relate to prototypes?  
@@ -44,7 +40,7 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 ## Advanced Engine Internals (36–50)  
 Deep dives into event‑loop behavior, memory management, strict mode, and runtime optimizations that show true mastery.  
 
-36. Describe the JavaScript event loop in detail, distinguishing microtasks (Promises) from macrotasks (`setTimeout`) .  
+
 37. How does garbage collection work in V8 (mark‑and‑sweep, generational GC)? 
 38. Explain the Temporal Dead Zone (TDZ) in ES6 and give an example of accessing a `let` before initialization.  
 39. What is tail‑call optimization, and does JavaScript implement it?  
