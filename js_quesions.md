@@ -8,7 +8,7 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 3. [What’s the difference between == and === in JavaScript, and how can automatic type conversion cause issues in React Native?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/type_conversion.md)  
 4. [Explain `null` vs. `undefined`, and how optional chaining (`?.`) helps avoid accessing `null` or `undefined` properties .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/part1.md#4-null-vs-undefined--optional-chaining)  
 5. [How does hoisting work for functions and variables, and what pitfalls can it introduce?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/hoisting.md)
-6. [What is the difference between deep copy and shalow copy?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/deep_copy_shallow_copy.md)
+6. [Describe the difference between deep and shallow copy.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/deep_copy_shallow_copy.md)
 7. [How can you update deeply nested state without mutating the original object?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/deeply_nested_state.md)
 8. [How does `this` get bound in arrow functions vs. regular functions, and why do arrow functions simplify React callbacks?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/this_and_arrow_functions.md)
 9. [How do template literals improve string interpolation in JSX?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/template_literal.md)  
