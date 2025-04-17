@@ -46,12 +46,12 @@ ES6+ features, asynchronous patterns, and performance techniques that differenti
 ## Advanced Engine Internals (36–50)  
 Deep dives into event‑loop behavior, memory management, strict mode, and runtime optimizations that show true mastery.  
 
-36. Describe the JavaScript event loop in detail, distinguishing microtasks (Promises) from macrotasks (`setTimeout`) citeturn1search4.  
-37. How does garbage collection work in V8 (mark‑and‑sweep, generational GC)? citeturn12search0  
+36. Describe the JavaScript event loop in detail, distinguishing microtasks (Promises) from macrotasks (`setTimeout`) .  
+37. How does garbage collection work in V8 (mark‑and‑sweep, generational GC)? 
 38. Explain the Temporal Dead Zone (TDZ) in ES6 and give an example of accessing a `let` before initialization.  
 39. What is tail‑call optimization, and does JavaScript implement it?  
 40. How do modules get loaded and executed differently in Metro bundler versus a browser?  
-41. What is strict mode, and how does it change JavaScript semantics in ES modules citeturn20search1?  
+41. What is strict mode, and how does it change JavaScript semantics in ES modules ?  
 42. How do `Proxy` objects and the `Reflect` API enable meta‑programming?  
 43. How do you detect and prevent memory leaks in a long‑running React Native app?  
 44. What are service workers? *(Not in RN—name this to show you know the RN environment doesn’t support them.)*  
