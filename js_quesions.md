@@ -13,7 +13,7 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 8. [How does `this` get bound in arrow functions vs. regular functions, and why do arrow functions simplify React callbacks?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/this_and_arrow_functions.md)
 9. How do template literals improve string interpolation in JSX?  
 10. Demonstrate array and object destructuring for extracting `props` in functional components .  
-11. Explain the spread (`...`) and rest (`...`) operators for cloning state and gathering function arguments.  
+11. [Explain the spread (`...`) and rest (`...`) operators for cloning state and gathering function arguments.](https://github.com/subraatakumar/React-Native-Interview-Questions/tree/main/answers/js)  
 12. How does the nullish coalescing operator (`??`) differ from `||` for default prop values ?  
 13. What does the nullish coalescing assignment (`??=`) operator do, and how might it simplify setting default state ?  
 14. How do default parameters work in functions, and why are they useful for fallback values in utility helpers?  
