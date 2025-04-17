@@ -23,9 +23,10 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 18. [How does `async`/`await` simplify Promise code, and how do you catch and surface errors in React Native components ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/async_await_react_native.md)   
 19. [Define higher‑order functions and give examples using `map`, `filter`, and `reduce`.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/higher_order_function.md)
 20. [Describe the JavaScript event loop in detail, distinguishing microtasks (Promises) from macrotasks (`setTimeout`) .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/event_loop.md)  
-22. [What is the difference between `Promise.all` and `Promise.race`, and when would you use each?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/promise_all_vs_race.md)  
-23. Explain debouncing vs. throttling, and how you’d debounce a scroll or text‑input event in RN .  
-24. What defines a “pure function,” and why are pure functions critical for hooks and Redux reducers ?  
+22. [What is the difference between `Promise.all` and `Promise.race`, and when would you use each?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/promise_all_vs_race.md)
+23. [Default export vs named export](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/default_export_named.md)
+24. [Explain debouncing vs. throttling with usecases .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/debouncing_throttling.md)  
+25. [What defines a “pure function,” ? Explain with example.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/pure_function.md)
 26. What is prototypal inheritance, and how do ES6 `class` declarations relate to prototypes?  
 27. How do getters and setters work in ES6 classes?  
 28. What are generator functions (`function*`), and how does `yield` work ?  
