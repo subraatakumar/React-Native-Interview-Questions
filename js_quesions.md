@@ -6,7 +6,7 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 1. What are the differences between `var`, `let`, and `const`, and why prefer `const` in React Native code?  
 2. How do JavaScript’s primitive types differ from reference types, and why does this matter when managing state?  
 3. What is the difference between `==` and `===`, and when could implicit coercion bite you in RN?  
-4. Explain `null` vs. `undefined`, and how optional chaining (`?.`) helps avoid accessing `null` or `undefined` properties .  
+4. [Explain `null` vs. `undefined`, and how optional chaining (`?.`) helps avoid accessing `null` or `undefined` properties .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/part1.md#4-null-vs-undefined--optional-chaining)  
 5. [How does hoisting work for functions and variables, and what pitfalls can it introduce?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/hoisting.md)  
 6. Define scope in JavaScript: global, function, and block scope—how do they impact closures in hooks?  
 7. What is a closure, and how does it enable `useState` and `useEffect` callbacks to “remember” previous values?  
