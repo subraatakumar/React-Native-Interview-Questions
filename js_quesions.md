@@ -19,15 +19,14 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 14. [How do default parameters work in functions, and why are they useful for fallback values in utility helpers?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/default_parameter.md)  
 15. [What are Immediately Invoked Function Expressions (IIFEs), and are they still relevant in ES modules? ](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/iife.md)
 16. [What is SET in javascript and explain some use cases of it in an ecommerce app.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/SET.md)
+17. [What are Promises, and what are their three states?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/promise.md)  
+18. [How does `async`/`await` simplify Promise code, and how do you catch and surface errors in React Native components ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/async_await_react_native.md)   
+19. [Define higher‑order functions and give examples using `map`, `filter`, and `reduce`.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/higher_order_function.md)
 
-## Intermediate Patterns & APIs (16–35)  
-ES6+ features, asynchronous patterns, and performance techniques that differentiate an effective React Native developer.  
-
-17. [Define higher‑order functions and give examples using `map`, `filter`, and `reduce`.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/higher_order_function.md)  
+    
 18. Explain dynamic `import()` and how code splitting can improve bundle size in RN .  
 19. Contrast ES Modules (`import`/`export`) with CommonJS (`require`/`module.exports`) and why Metro prefers ES Modules .  
-20. What are Promises, and what are their three states?  
-21. How does `async`/`await` simplify Promise code, and how do you catch and surface errors in React Native components ?  
+ 
 22. What is the difference between `Promise.all` and `Promise.race`, and when would you use each?  
 23. Explain debouncing vs. throttling, and how you’d debounce a scroll or text‑input event in RN .  
 24. What defines a “pure function,” and why are pure functions critical for hooks and Redux reducers ?  
@@ -37,7 +36,7 @@ ES6+ features, asynchronous patterns, and performance techniques that differenti
 29. What are Symbols, and how can you use them to create unique object keys?  
 30. When would you choose a `Map` vs. a `WeakMap` for storing component‑scoped caches?  
 31. How do `JSON.stringify` and `JSON.parse` work under the hood?  
-32. Describe the difference between deep and shallow copying of objects.  
+32.   
 33. What are Typed Arrays (`ArrayBuffer`, `Uint8Array`, etc.), and when would you use them?  
 34. How do tagged template literals work, and give an example use in styling or localization.  
 35. How do you implement memoization in JavaScript to cache expensive calculations?  
