@@ -4,8 +4,8 @@ List of 50 vanilla‑JavaScript questions, refocused for a React Native SDE1 in
 Fundamental language mechanics and modern syntax you’ll use every day in functional components and hooks.  
 
 1. [What are the differences between `var`, `let`, and `const`, and why prefer `const` in React Native code?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/part1.md#1-var--let--const)
-2. How do JavaScript’s primitive types differ from reference types, and why does this matter when managing state?  
-3. What is the difference between `==` and `===`, and when could implicit coercion bite you in RN?  
+2. [How do JavaScript’s primitive types differ from reference types, and why does this matter when managing state?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/primitive.md)  
+3. [What’s the difference between == and === in JavaScript, and how can automatic type conversion cause issues in React Native?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/type_conversion.md)  
 4. [Explain `null` vs. `undefined`, and how optional chaining (`?.`) helps avoid accessing `null` or `undefined` properties .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/part1.md#4-null-vs-undefined--optional-chaining)  
 5. [How does hoisting work for functions and variables, and what pitfalls can it introduce?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/hoisting.md)  
 6. Define scope in JavaScript: global, function, and block scope—how do they impact closures in hooks?  
