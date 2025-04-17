@@ -3,7 +3,7 @@ List of 50 vanilla‑JavaScript questions, refocused for a React Native SDE1 in
 ## Core React Native JS Concepts (1–15)  
 Fundamental language mechanics and modern syntax you’ll use every day in functional components and hooks.  
 
-1. What are the differences between `var`, `let`, and `const`, and why prefer `const` in React Native code?  
+1. [What are the differences between `var`, `let`, and `const`, and why prefer `const` in React Native code?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/part1.md#1-var--let--const)
 2. How do JavaScript’s primitive types differ from reference types, and why does this matter when managing state?  
 3. What is the difference between `==` and `===`, and when could implicit coercion bite you in RN?  
 4. [Explain `null` vs. `undefined`, and how optional chaining (`?.`) helps avoid accessing `null` or `undefined` properties .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/part1.md#4-null-vs-undefined--optional-chaining)  
