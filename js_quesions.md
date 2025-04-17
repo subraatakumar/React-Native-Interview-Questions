@@ -7,7 +7,9 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 2. [How do JavaScript’s primitive types differ from reference types, and why does this matter when managing state?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/primitive.md)  
 3. [What’s the difference between == and === in JavaScript, and how can automatic type conversion cause issues in React Native?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/type_conversion.md)  
 4. [Explain `null` vs. `undefined`, and how optional chaining (`?.`) helps avoid accessing `null` or `undefined` properties .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/part1.md#4-null-vs-undefined--optional-chaining)  
-5. [How does hoisting work for functions and variables, and what pitfalls can it introduce?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/hoisting.md)   
+5. [How does hoisting work for functions and variables, and what pitfalls can it introduce?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/hoisting.md)
+6. [What is the difference between deep copy and shalow copy?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/deep_copy_shallow_copy.md)
+7. [How can you update deeply nested state without mutating the original object?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/deeply_nested_state.md)
 8. [How does `this` get bound in arrow functions vs. regular functions, and why do arrow functions simplify React callbacks?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/this_and_arrow_functions.md)
 9. [How do template literals improve string interpolation in JSX?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/template_literal.md)  
 10. [Demonstrate array and object destructuring for extracting `props` in functional components .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/destructuring.md)  
@@ -28,7 +30,7 @@ ES6+ features, asynchronous patterns, and performance techniques that differenti
 22. What is the difference between `Promise.all` and `Promise.race`, and when would you use each?  
 23. Explain debouncing vs. throttling, and how you’d debounce a scroll or text‑input event in RN .  
 24. What defines a “pure function,” and why are pure functions critical for hooks and Redux reducers ?  
-25. How can you update deeply nested state without mutating the original object?  
+25.   
 26. What is prototypal inheritance, and how do ES6 `class` declarations relate to prototypes?  
 27. How do getters and setters work in ES6 classes?  
 28. What are generator functions (`function*`), and how does `yield` work ?  
