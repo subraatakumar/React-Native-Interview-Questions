@@ -34,7 +34,7 @@ ES6+ features, asynchronous patterns, and performance techniques that differenti
 25. How can you update deeply nested state without mutating the original object?  
 26. What is prototypal inheritance, and how do ES6 `class` declarations relate to prototypes?  
 27. How do getters and setters work in ES6 classes?  
-28. What are generator functions (`function*`), and how does `yield` work citeturn1search4?  
+28. What are generator functions (`function*`), and how does `yield` work ?  
 29. What are Symbols, and how can you use them to create unique object keys?  
 30. When would you choose a `Map` vs. a `WeakMap` for storing component‑scoped caches?  
 31. How do `JSON.stringify` and `JSON.parse` work under the hood?  
