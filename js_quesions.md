@@ -22,8 +22,7 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 ## Intermediate Patterns & APIs (16–35)  
 ES6+ features, asynchronous patterns, and performance techniques that differentiate an effective React Native developer.  
 
-16. What are arrow functions, and how does their lexical `this` make event handlers cleaner?  
-17. Define higher‑order functions and give examples using `map`, `filter`, and `reduce`.  
+17. [Define higher‑order functions and give examples using `map`, `filter`, and `reduce`.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/higher_order_function.md)  
 18. Explain dynamic `import()` and how code splitting can improve bundle size in RN .  
 19. Contrast ES Modules (`import`/`export`) with CommonJS (`require`/`module.exports`) and why Metro prefers ES Modules .  
 20. What are Promises, and what are their three states?  
