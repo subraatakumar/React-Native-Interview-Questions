@@ -10,7 +10,7 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 5. [How does hoisting work for functions and variables, and what pitfalls can it introduce?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/hoisting.md)  
 6. Define scope in JavaScript: global, function, and block scope—how do they impact closures in hooks?  
 7. What is a closure, and how does it enable `useState` and `useEffect` callbacks to “remember” previous values?  
-8. How does `this` get bound in arrow functions vs. regular functions, and why do arrow functions simplify React callbacks?  
+8. [How does `this` get bound in arrow functions vs. regular functions, and why do arrow functions simplify React callbacks?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/this_and_arrow_functions.md)
 9. How do template literals improve string interpolation in JSX?  
 10. Demonstrate array and object destructuring for extracting `props` in functional components .  
 11. Explain the spread (`...`) and rest (`...`) operators for cloning state and gathering function arguments.  
