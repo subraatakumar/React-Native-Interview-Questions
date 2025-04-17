@@ -14,10 +14,10 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 9. How do template literals improve string interpolation in JSX?  
 10. Demonstrate array and object destructuring for extracting `props` in functional components .  
 11. [Explain the spread (`...`) and rest (`...`) operators for cloning state and gathering function arguments.](https://github.com/subraatakumar/React-Native-Interview-Questions/tree/main/answers/js)  
-12. How does the nullish coalescing operator (`??`) differ from `||` for default prop values ?  
-13. What does the nullish coalescing assignment (`??=`) operator do, and how might it simplify setting default state ?  
-14. How do default parameters work in functions, and why are they useful for fallback values in utility helpers?  
-15. What are Immediately Invoked Function Expressions (IIFEs), and are they still relevant in ES modules?  
+12. [How does the nullish coalescing operator (`??`) differ from `||` for default prop values ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/nullish_coalescing_operator.md)
+13. [What does the nullish coalescing assignment (`??=`) operator do, and how might it simplify setting default state ?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/nullish_coealising_assignment.md) 
+14. [How do default parameters work in functions, and why are they useful for fallback values in utility helpers?](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/default_parameter.md)  
+15. [What are Immediately Invoked Function Expressions (IIFEs), and are they still relevant in ES modules? ](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/iife.md)
 
 ## Intermediate Patterns & APIs (16–35)  
 ES6+ features, asynchronous patterns, and performance techniques that differentiate an effective React Native developer.  
