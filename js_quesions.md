@@ -27,33 +27,3 @@ Fundamental language mechanics and modern syntax you’ll use every day in funct
 23. [Default export vs named export](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/default_export_named.md)
 24. [Explain debouncing vs. throttling with usecases .](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/debouncing_throttling.md)  
 25. [What defines a “pure function,” ? Explain with example.](https://github.com/subraatakumar/React-Native-Interview-Questions/blob/main/answers/js/pure_function.md)
-26. What is prototypal inheritance, and how do ES6 `class` declarations relate to prototypes?  
-27. How do getters and setters work in ES6 classes?  
-28. What are generator functions (`function*`), and how does `yield` work ?  
-29. What are Symbols, and how can you use them to create unique object keys?  
-30. When would you choose a `Map` vs. a `WeakMap` for storing component‑scoped caches?  
-31. How do `JSON.stringify` and `JSON.parse` work under the hood?  
-32.   
-33. What are Typed Arrays (`ArrayBuffer`, `Uint8Array`, etc.), and when would you use them?  
-34. How do tagged template literals work, and give an example use in styling or localization.  
-35. How do you implement memoization in JavaScript to cache expensive calculations?  
-
-## Advanced Engine Internals (36–50)  
-Deep dives into event‑loop behavior, memory management, strict mode, and runtime optimizations that show true mastery.  
-
-
-37. How does garbage collection work in V8 (mark‑and‑sweep, generational GC)? 
-38. Explain the Temporal Dead Zone (TDZ) in ES6 and give an example of accessing a `let` before initialization.  
-39. What is tail‑call optimization, and does JavaScript implement it?  
-40. How do modules get loaded and executed differently in Metro bundler versus a browser?  
-41. What is strict mode, and how does it change JavaScript semantics in ES modules ?  
-42. How do `Proxy` objects and the `Reflect` API enable meta‑programming?  
-43. How do you detect and prevent memory leaks in a long‑running React Native app?  
-44. What are service workers? *(Not in RN—name this to show you know the RN environment doesn’t support them.)*  
-45. How does the Metro bundler’s tree‑shaking work with ES Modules?  
-46. What role do micro‑optimizations (e.g., caching array length, avoiding repeated property lookups) play on the single‑threaded JS bridge in RN?  
-47. How can you offload heavy work off the JS thread to keep animations smooth?  
-48. Explain the differences between strict equality checks for objects and primitive values.  
-49. How does the `arguments` object differ from rest parameters?  
-50. What are WebAssembly bindings in React Native, and how would you call a WASM function from JS?  
-
