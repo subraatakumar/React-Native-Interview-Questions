@@ -51,4 +51,3 @@ In React Native, **cascading styles** refer to the way styles are inherited and 
 - **No automatic inheritance**, except for some text properties.
 - Use `StyleSheet.create()` for performance optimization.
 
-Would you like more details on styling best practices in React Native? 🚀
